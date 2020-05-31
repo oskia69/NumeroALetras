@@ -22,7 +22,7 @@ Algoritmo Numero_letras
 		FinSegun
 	
 FinAlgoritmo
-//Aqui se pasa el valor a unidades
+
 Funcion Unidades (num,sufijo)
 	Mensaje=""
 	x=3
