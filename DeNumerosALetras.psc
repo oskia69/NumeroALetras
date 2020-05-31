@@ -57,6 +57,7 @@ Funcion Unidades (num,sufijo)
 	
 	
 finFuncion
+//Aqui pasamos los valores a decenas
 funcion Decenas (num)
 	Segun num[1] 
 		1: 	si  num[0]=0
