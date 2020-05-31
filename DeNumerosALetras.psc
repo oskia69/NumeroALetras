@@ -1,4 +1,5 @@
 Algoritmo Numero_letras
+//Introducimos un valor a la letra "N"
 		escribir "Introduce un nunero";
 		leer n;
 		largo=Longitud(n);	
