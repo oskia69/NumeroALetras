@@ -108,7 +108,7 @@ funcion Decenas (num)
 	FinSi
 	unidades(num,sufijo)
 Fin Funcion
-
+//Realizamos el traspaso a las Centenas
 funcion Centenas (num)
 	segun num[2] hacer 
 		0:
