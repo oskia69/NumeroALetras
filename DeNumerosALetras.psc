@@ -1,4 +1,4 @@
-Algoritmo sin_titulo
+Algoritmo Numero_letras
 		escribir "Introduce un nunero";
 		leer n;
 		largo=Longitud(n);	
