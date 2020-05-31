@@ -1,5 +1,5 @@
 Algoritmo Numero_letras
-//Introducimos un valor a la letra "N"
+//Introducimos un valor a la letra "N", y calculamos la longitud del valor introducido.
 		escribir "Introduce un nunero";
 		leer n;
 		largo=Longitud(n);	
@@ -22,7 +22,7 @@ Algoritmo Numero_letras
 		FinSegun
 	
 FinAlgoritmo
-
+//Aqui se realizan las unidades, las cuales seran siempre las mismas sin exepciones.
 Funcion Unidades (num,sufijo)
 	Mensaje=""
 	x=3
@@ -57,7 +57,7 @@ Funcion Unidades (num,sufijo)
 	
 	
 finFuncion
-//Aqui pasamos los valores a decenas
+//Aqui realizamos la conversion del valor introducido anteriormente a Decenas y con sus exepciones.
 funcion Decenas (num)
 	Segun num[1] 
 		1: 	si  num[0]=0
@@ -108,7 +108,7 @@ funcion Decenas (num)
 	FinSi
 	unidades(num,sufijo)
 Fin Funcion
-//Realizamos el traspaso a las Centenas
+//Realizamos el traspaso a las Centenas como anteriormente hemos hecho en las Decenas.
 funcion Centenas (num)
 	segun num[2] hacer 
 		0:
